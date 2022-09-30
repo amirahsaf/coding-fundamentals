@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100vh;
+}
+
+.mobile {
+    background-color: rgb(255, 57, 57);
+}       
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+    display: block;
+    background-color: rgb(142, 255, 107);
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .tablet {
+    display: none;
+    }
+
+    .desktop {
+        display: block;
+        background-color: rgb(41, 116, 255);
+    }
+}
+        
