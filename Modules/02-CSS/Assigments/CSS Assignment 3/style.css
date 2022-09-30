@@ -1,0 +1,18 @@
+.menu {  
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: gray;
+    width: 60px;
+    text-align: center;
+    /* Style for menu button */
+    }
+
+    .submenu {    
+    display: none;
+    /* Hide submenu */
+    }
+
+    .menu:hover .submenu {  
+    display: inline;
+    /* Show submenu on hover */
+    }
