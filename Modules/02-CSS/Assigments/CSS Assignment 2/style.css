@@ -1,0 +1,19 @@
+.breadcrumb {  
+padding: 5px 10px;
+background-color: gray;
+list-style-type: none;
+display: flex;
+}
+
+.breadcrumb li {
+padding-right: 15px;
+}
+
+.breadcrumb li a {
+color: white;
+}
+
+.breadcrumb li + li:before {
+content: '/';
+padding-right: 10px;
+}
