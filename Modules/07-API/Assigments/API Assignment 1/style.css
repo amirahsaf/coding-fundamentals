@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 4rem;
+}
+
+.card {
+    border: 1px solid gold;
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+#quotes-div {
+    
+    margin-bottom: 2rem;
+    /* border: 1px solid gold;
+    padding: 3rem 2rem; */
+}
+
+#quotes {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 0.7rem;
+    background-color: rgb(39, 124, 210);
+    border: none;
+    border-radius: 0.5rem;
+    color: aliceblue;
+}
